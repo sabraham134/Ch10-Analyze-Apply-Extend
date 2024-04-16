@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- Samantha Abraham, 4/15/2024 -->
+<html lang="en">
+<head>
+
+    <title>Chapter 10, Extend</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+
+    function hide() {
+      document.getElementById("para").hidden = true
+    }
+
+    function show() {
+      document.getElementById("para").hidden = false
+    }
+    </script>
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+        <h1>Learning How to Use jQuery</h1>
+
+		<article id="main">
+        <div id="para">
+                <p>I know how to create HTML pages.</p>
+                <p>I know how to style webpages with CSS.</p>
+                <p>I know how to add functionality to webpages with JavaScript.</p>
+                <p>I understand how to use the jQuery library.</p>
+        </div>
+                <button onclick="hide()">Hide</button>
+                <button onclick="show()">Show</button>
+
+		</article>
+
+        <footer>
+            <p>Student's Name: Samantha Abraham </p>
+            <p>The latest version of jQuery is: jQuery 3.7.1.</p>
+            <p>Resource used to complete this assignment: W3schools.</p>
+        </footer>
+
+	</div>
+
+<body>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
